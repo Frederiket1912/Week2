@@ -1,5 +1,8 @@
 # Week2
- 
+
+Link til min side: https://frederiket.dk/Week2/ 
+Har ikke lagt opgavebesvarelserne op på siden, bare lige en demonstration af at der er hul igennem. 
+
 ## Tirsdag:
 
 Jeg fik svaret på alle opgaverne, selvom jeg stadig ikke føler jeg er 100% inde i alle begreberne. Se dokumentet "Fundamental Network Topics".
