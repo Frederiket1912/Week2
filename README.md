@@ -1,6 +1,6 @@
 # Week2
  
-#Tirsdag:
+## Tirsdag:
 
 Jeg fik svaret på alle opgaverne, selvom jeg stadig ikke føler jeg er 100% inde i alle begreberne. Se dokumentet "Fundamental Network Topics".
 
@@ -57,7 +57,7 @@ Læringsmål:
  Jeg ved hvordan man ser headers (ctrl-shift-j i chrome). Jeg er stadig lidt usikker på hvad de vigtigste headers er. Jeg går ud fra det
  er hvor dataen kommer fra og hvor den skal hen, men kan være der er mange flere der kan siges at være vigtige.
  
- #Onsdag:
+ ## Onsdag:
  
  Jeg fik svaret på alle opgaverne. Se dokumentet "The HTTP Protocol". Projektet "HTTPProtocalTest" hører til exercise 1-6 og 
  "SessionAndCookies" hører til exercise 7-8. Spørgsmålene i opgaverne var generelt ret vage. Jeg har prøvet at svare efter bedste ævne,
@@ -83,7 +83,7 @@ Læringsmål:
  Cookies bliver brugt til at opbevare data over længere tid, fx kan en side måske huske brugerens navn i en cookie, så han let kan
  logge ind igen, og dermed blive gemt som logged ind i sessionen. Eller de kan blive brugt til at huske forskellige valg man har taget  på en side, som ikke skal nulstilles hver gang man besøger den. Se exercise 8 for demonstration.
  
- #Torsdag:
+ ## Torsdag:
  Fik lavet opgaven. Mit domæne frederiket.dk fører en til tomcat siden. Er generelt set mange ting fra torsdags opgaven jeg er usikker på og jeg ville ikke kunne sætte et nyt domæne op uden at følge "opskriften" igen.
  
  Læringsmål:
