@@ -71,3 +71,5 @@ fungerer HTTP i appplicationslaget. Client (ofte en browser) og server kommunike
 
 
 Explain (conceptually) how HTTP and TCP/IP are connected (what can HTTP do, and where does it fit into TCP/IP)
+HTTP beskriver hvordan man henter og sammensætter data fra en eller flere servers. TCP/IP beskriver hvordan den data HTTP skal bruge, kan bevæge sig fra
+klienten til serveren i form af en HTTP-request, og tilbage fra serveren i for af et HTTP-response.
