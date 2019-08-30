@@ -38,7 +38,7 @@ Har jeg lidt svaret på allerede men:
 Se RequestHeaderInfo servletten i netbeansprojektet HTTPProtocolTest.
 
 6)
-Er ikke helt sikker på hvordan spørgsmålet skal besvares, men når man bruger GET parametrene under et afsnit i headers der hedder "Query String Parameters".
+Er ikke helt sikker på hvordan spørgsmålet skal besvares, men når man bruger GET er parametrene under et afsnit i headers der hedder "Query String Parameters".
 Når man bruger POST er parametrene under et afsnit der hedder "Form Data".
 
 7)
