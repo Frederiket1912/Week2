@@ -1,0 +1,50 @@
+1)
+Der er: 
+General Headers hvor man kan se URL, request metode (get, post osv.), status code, remote address og referrer policy.
+
+Response Headers hvor der er en dato for responset og et ETag som er en identifier for den ressource den skal finde.
+
+Request Headers hvor der er en masse jeg ikke ved hvad man bruger til, men der er blandt andet hvilket sprog requesten acceptere, hvordan connectionen skal holdes
+(keep-alive i dette tilfælde), noget om cache control, altså hvor lang tid cookies skal gemmes og noget om hvornår filen er blevet edited.
+
+2)
+Nu er der også en request til min css og jpg fil. Connection headeren beskriver hvordan forbindelsen mellem klient og server skal fungere.
+I dette tilfælde er det "keep-alive" hvilket betyder at man ikke skal oprette en ny connection til serveren ved hvert nyt request.
+
+3)
+Først er der en request til "redirect" servletten som svare tilbage med en statuskode 302 som betyder at man skal redirectes.
+Så er deb en request til "r.html" som vi er blevet redirected til med en statuskode 200 som betyder at det gik OK.
+
+Jeg er ikke helt sikker på hvordan den gør det, men mit bud er at den finder ud af hvor den skal redirectes hen ved i det første request at sende
+en location med i Response Headers, som i det her tilfælde er "r.html".
+
+3a)
+Den første request  var til http, men så blev jeg redirected til https.
+
+4a)
+Jeg fik en status code 500, da der skete en fejl på serveren (prøvede at dividere med 0).
+
+4b)
+Fik en status code 404, da siden ikke eksisterer.
+
+4c)
+Har jeg lidt svaret på allerede men:
+2xx er ok
+3xx er redirect
+4xx er klient fejl
+5xx er server fejl
+
+5)
+Se RequestHeaderInfo servletten i netbeansprojektet HTTPProtocolTest.
+
+6)
+Er ikke helt sikker på hvordan spørgsmålet skal besvares, men når man bruger GET parametrene under et afsnit i headers der hedder "Query String Parameters".
+Når man bruger POST er parametrene under et afsnit der hedder "Form Data".
+
+7)
+Den husker ens session id i en request cookie. Servletten prøver først at se om der er et parameter der hedder "name" i url'en. Hvis der er et "name" parameter
+gemmer den navnet som "name" i session. Ellers prøver den at se om der allerede er et name gemt i session. I selve body'en tjekker den om "name" stadig er null,
+hvis det er tilfældet får man formen hvor man kan indtaste sit navn, ellers skriver den velkommen til en.
+
+8)
+Den husker både ens session id og et username i en request cookie. Man mister sit session id, men cookien som bliver gemt på clienten, kan huske ens username.
