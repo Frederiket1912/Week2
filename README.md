@@ -110,7 +110,7 @@ Jeg fik svaret på alle opgaverne, selvom jeg stadig ikke føler jeg er 100% ind
  **1) Kunne forklare begrebet Virtualization**
  
  Virtualization betyder i forhold til vores øvelse at vi har brugt enginx til at simulere en virtuel reverse proxy server.
- Altså at hvis set-uppet var "rigtigt" ville det proxyen være en server for sig selv, men bruger vores droplet til at hoste en virtuel
+ Altså at hvis set-uppet var "rigtigt" ville proxyen være en server for sig selv, men bruger vores droplet til at hoste en virtuel
  ekstra server.
  
  **2) Kunne forklare om ofte benyttede server arkitekturer**
@@ -126,11 +126,11 @@ Jeg fik svaret på alle opgaverne, selvom jeg stadig ikke føler jeg er 100% ind
  
  **3) Kunne forklare begrebet x-as-a-service og benytte/demonstrere en infra-structure-as-a-service platform**
  
- Ved ærlig talt ikke rigtigt hvad det her er. Jeg kunne sikkert google det, men jeg syntes ikke det var noget der stod noget om i de forskellige ting vi skulle læse, og jeg syntes ikke Arne nævnte det.
+ Ved ærlig talt ikke rigtigt hvad det her er. Jeg kunne sikkert google det, men jeg syntes ikke det var noget der stod noget om i de forskellige ting vi skulle læse.
  
  **4) Kunne forklare konceptuelt, om assymetrisk kryptering, signatures og certifikater, relateret til TLS**
  
- Assymetrisk kryptering er når man bruger to keys i kryptering/dekrypteringsprocessen. Den ene key er privat og den deler man ikke med nogen, den anden key er offentlig og den kan deles med alle. Nårmalt vil man kryptere med modtagerens public key, så de kan bruge deres private key til at dekryptere. Hvis man vil kryptere noget som en signatur, kan man kryptere med sin egen private key, og så kan modtageren se at det kommer fra en, hvis det er muligt for dem at dekryptere indholdet med afsenderens public key.
+ Assymetrisk kryptering er når man bruger to keys i kryptering/dekrypteringsprocessen. Den ene key er privat og den deler man ikke med nogen, den anden key er offentlig og den kan deles med alle. Normalt vil man kryptere med modtagerens public key, så de kan bruge deres private key til at dekryptere. Hvis man vil kryptere noget som en signatur, kan man kryptere med sin egen private key, og så kan modtageren se at det kommer fra en, hvis det er muligt for dem at dekryptere indholdet med afsenderens public key.
  
  Et digitalt certificat bruges til at vise at man er den rigtige ejer af en public key og handler om at man stoler på dem der har udstedt certificated.
  
